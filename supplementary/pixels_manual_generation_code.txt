@@ -1,0 +1,11 @@
+	self.canvas.bind('<ButtonPress>', self.mouse_press)
+	'''	
+	def mouse_press(self, event):
+	'''
+			# when the mouse is pressed
+	'''
+		
+		# get the desired pixels manually by clicking the mouse
+		with open('coords2.txt', 'a') as f:
+			f.write(str(event.x) + ', ' + str(event.y) + ', ')
+	'''
